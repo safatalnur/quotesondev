@@ -1,0 +1,113 @@
+.submit-form {
+    max-width: 100%;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.form-solution {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+}
+.form-header {
+    color: white;
+    font-size: 25px;
+    font-family: 'Exo Medium';
+}
+
+.form-author {
+    padding-top: 25px;
+    font-family: 'Exo Light';
+    display: flex;
+    flex-direction: column;
+
+    label {
+        color: #e1e1e1;
+        padding-bottom: 15px;
+    }
+
+    input {
+        border: 1px solid yellowgreen;
+        outline: none;
+        background: transparent;
+        width: 400px;
+        height: 40px;
+    }
+}
+
+.form-quote {
+    padding-top: 25px;
+    font-family: 'Exo Light';
+    display: flex;
+    flex-direction: column;
+
+    label {
+        color: #e1e1e1;
+        padding-bottom: 15px;
+    }
+
+    input {
+        border: 1px solid yellowgreen;
+        outline: none;
+        background: transparent;
+        width: 650px;
+        height: 80px;
+    }
+}
+
+.form-source {
+    padding-top: 25px;
+    font-family: 'Exo Light';
+    display: flex;
+    flex-direction: column;
+
+    label {
+        color: #e1e1e1;
+        padding-bottom: 15px;
+    }
+
+    input {
+        border: 1px solid yellowgreen;
+        outline: none;
+        background: transparent;
+        width: 400px;
+        height: 40px;
+    }
+}
+
+.form-URL {
+    padding-top: 25px;
+    font-family: 'Exo Light';
+    display: flex;
+    flex-direction: column;
+
+    label {
+        color: #e1e1e1;
+        padding-bottom: 15px;
+    }
+
+    input {
+        border: 1px solid yellowgreen;
+        outline: none;
+        background: transparent;
+        width: 400px;
+        height: 40px;
+    }
+}
+
+.input-button {
+    padding-top: 25px;
+
+    input{
+        font-family: 'Exo Medium';
+        color: yellowgreen;
+        background: transparent;
+        padding: 10px 20px;
+        border: 1px solid yellowgreen;
+        font-size: 20px;
+        font-weight: bold;
+    }    
+}

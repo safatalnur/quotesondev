@@ -5,9 +5,17 @@
     while( have_posts() ) :
         the_post(); ?>
     
-    <h2><?php the_title(); ?></h2>
-    <?php the_content(); ?>
-    
+
+    <section class="page-about">
+        <div class="left-awesome">
+            <i class="fas fa-quote-left"></i>
+        </div>
+        <h2><?php the_title(); ?></h2>
+        <?php the_content(); ?>
+        <div class="right-awesome">
+            <i class="fas fa-quote-right"></i>
+        </div>
+    </section>
     <!-- Loop ends -->
     <?php endwhile;?>
 

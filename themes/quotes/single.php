@@ -7,7 +7,11 @@
     
     <h2><?php the_title(); ?></h2>
     <?php the_content(); ?>
-    
+    <?php echo get_post_meta( get_the_ID(), '_qod_quote_source', true);?>
+    <?php echo get_post_meta( get_the_ID(), '_qod_quote_source_url', true);?>
+
+
+
     <!-- Loop ends -->
     <?php endwhile;?>
 

@@ -1,0 +1,97 @@
+.site-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 3.0rem;
+    line-height: 3;
+    font-family: 'Exo Light';
+    
+    // justify-content: flex-end;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: center;
+    
+    a {
+        text-decoration: none;
+        color: yellowgreen;
+        border-right: 1px solid white;
+        padding: 0px 20px;
+    }    
+}
+
+.info {
+    display: inline;
+    color: white;
+    margin-left: 1rem;
+
+    a {
+        text-decoration: none;
+        color: yellowgreen;
+    }
+}
+
+
+
+.center-part {
+    max-width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+
+    p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+        font-size: 40px;
+        
+       
+        }
+    }
+
+.btn {
+    display: grid;
+    justify-content: center;
+}
+#quote-button {
+    text-align: center;
+    width: 300px;
+    color: yellowgreen;
+    background: transparent;
+    border: 1px solid yellowgreen;
+    padding: 10px 15px;
+    font-family: 'Exo Medium';
+    font-size: 16px;
+}
+
+#header-image {
+    margin-bottom: 50px;
+}
+
+.left-awesome {
+    font-size: 100px;
+}
+
+.right-awesome {
+    font-size: 100px;
+}
+
+.page-about {
+    max-width: 100%;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+
+    h2 {
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+}
